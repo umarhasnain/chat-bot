@@ -134,3 +134,21 @@ input:is(:focus, :valid)+.placeholder {
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
+
+.right-side {
+    margin-top: 5px;
+    color: white;
+    background-color: #8dc63f;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: auto;
+    text-align: right;
+}
+
+.left-side {
+    margin-top: 5px;
+    background: #0d6db7;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}

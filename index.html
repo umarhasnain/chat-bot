@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Bot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="contain">
+            <div class="header">
+                <h2 id="user_name">User Name</h2>
+                <u><h1>Registration Chat Bot</h1></u>
+
+            </div>
+        </div>
+
+        <div class="chat-box" id="chat-box">
+            <ul id="list">
+                <li>Hello</li>
+                <li>Hello</li>
+                <li>Hello</li>
+
+            </ul>
+
+        </div>
+        <div id="typing" style="display: none ;font-size: large; ;">
+            typing.....
+        </div>
+
+        <div class="input_div">
+            <div class="input-wrapper">
+                <!-- <span class="icons"><i class="fa-regular fa-envelope"></i></span> -->
+                <input type='email' id='input' required></input>
+                <label for='input' class='placeholder'>
+                   Type Message ......
+                </label>
+
+            </div>
+            <div>
+                <button class="myBtn" id="myBtn" type="submit">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

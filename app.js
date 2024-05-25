@@ -42,7 +42,7 @@ function sendMessage() {
         }, 2000);
         setTimeout(function() {
             list.innerHTML +=
-                "<li class='right-side'><img src = 'images/aiImage.png' width='20px' height='20px'<br> Kese HOo ?? ";
+                "<li class='left-side'><img src = 'images/aiImage.png' width='20px' height='20px'<br> Kese HOo ?? ";
             typing.style.display = "none";
         }, 4000);
         input.value = "";

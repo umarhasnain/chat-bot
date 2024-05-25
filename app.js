@@ -162,7 +162,7 @@ function sendMessage() {
                 "</li>";
             typing.style.display = "none";
         }, 2000);
-        userInput.value = "";
+        input.value = "";
     } else if (
         [
             "thanks",
@@ -175,10 +175,10 @@ function sendMessage() {
     ) {
         setTimeout(function() {
             list.innerHTML +=
-                "<li class='left-side'><img src='images/iaImages alt='' width='20px' height='20px'><br> Koi baat nhi koi aur kaam ho tou btayega🤝</li>";
+                "<li class='left-side'><img src='images/aiImage.png' width='20px' height='20px'><br> Koi baat nhi koi aur kaam ho tou btayega🤝</li>";
             typing.style.display = "none";
         }, 2000);
-        userInput.value = "";
+        input.value = "";
     } else {
         setTimeout(function() {
             list.innerHTML +=
